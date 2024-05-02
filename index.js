@@ -8,4 +8,4 @@ app.use(cors());
 app.use(express.json());
 app.use("/user", userRouter);
 app.use("/admin", adminRouter);
-app.listen(3000)
+app.listen(3001,()=>{console.log("Port running on post 3001")})
